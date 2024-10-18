@@ -1,33 +1,42 @@
-body {
+body { 
     text-align: center;
-    background-color: #d0bdf4;
 }
 
-button {
+.btn {
     height: 200px;
     width: 200px;
+    border-radius: 20%;
     border: 10px solid black;
-    border-radius: 48px;
-    margin: 10px;
+    margin: 2.5rem;
+    padding: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .red {
-    background-color: #ffa8B6;
-}
-.yellow {
-    background-color: #edf756;
-}
-.blue {
-    background-color: #9df9ef;
-}
-.purple {
-    background-color: #cc9df9;
+    background-color: #d95980;
 }
 
-.container {
-    display: none; /* Hidden at the start */
+.green {
+    background-color: #63aac0;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.purple {
+    background-color: #819ff0;
 }
 
 .flash {
     background-color: #fff;
+}
+
+.userFlash {
+    background-color: #fff; 
 }
